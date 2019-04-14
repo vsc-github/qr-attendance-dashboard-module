@@ -4,6 +4,8 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import logo from './logo.svg';
 import Table from './Table';
+import Navbar from './Common/Navbar';
+import AddStudent from './Pages/AddStudent';
 import './App.css';
 
 class App extends Component {
@@ -30,13 +32,11 @@ class App extends Component {
 
     return (<Router>
       <div>
-        <ul>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/attendance">Attendance</Link></li>
-        </ul>
-        <hr />
+        <Navbar />
+        
         <Route exact path="/" component={Home} />
         <Route path="/attendance" component={Table} />
+        <Route path="/addStudent" component={AddStudent} />
       </div>
     </Router>);
   }
