@@ -126,10 +126,10 @@ class AddStudent extends Component {
                         <div class="select">
                             <select id="branch" onChange={this.handleInput}  value={this.state.branch}>
                                 <option value="" selected>Select Student's Branch</option>
-                                <option value="cse">CSE</option>
-                                <option value="ec">EC</option>
-                                <option value="ee">EE</option>
-                                <option value="mech">Mech</option>
+                                <option value="CSE">CSE</option>
+                                <option value="EC">EC</option>
+                                <option value="EE">EE</option>
+                                <option value="MECH">Mech</option>
                             </select>
                         </div>
                     </div>
@@ -156,10 +156,10 @@ class AddStudent extends Component {
                         <div class="select">
                             <select id="year" onChange={this.handleInput}  value={this.state.year}>
                                 <option value="" selected>Select Year</option>
-                                <option value="A">1st Year</option>
-                                <option value="B">2nd Year</option>
-                                <option value="C">3rd Year</option>
-                                <option value="D">4th Year</option>
+                                <option value="1st">1st Year</option>
+                                <option value="2nd">2nd Year</option>
+                                <option value="3rd">3rd Year</option>
+                                <option value="4th">4th Year</option>
                             </select>
                         </div>
                     </div>
