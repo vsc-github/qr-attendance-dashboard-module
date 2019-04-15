@@ -27,7 +27,25 @@ class App extends Component {
       <header className="App-header">
       </header>
 
-      <Table />
+      <div className="main">
+        <div className="card">
+            <h4>Design & Implementation of Attendance System with QR Codes using Data Analytics</h4>
+            <div className="faculties">
+              <div className="faculty">
+                <div className="position">Project Guide:</div>
+                <div className="name">Mr. Deepak Agrawal</div>
+              </div>
+              <div className="faculty">
+                <div className="position">Project Coordinator:</div>
+                <div className="name">Miss Kavita Namdev</div>
+              </div>
+            </div>
+
+            <div className="students">
+              <span className="by">Made by: </span><span>Urvashi Murari (0827cs151236), Tanisha Chouhan(0827cs151230) & Tanishq Gupta(0827cs151231)</span>
+            </div>
+        </div>
+      </div>
     </div>);
 
     return (<Router>
