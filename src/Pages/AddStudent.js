@@ -101,6 +101,7 @@ class AddStudent extends Component {
                 Student Successfully added.
               </div>)
             }
+            <h3 class="title is-3">Add new student:</h3>
                 <div class="field">
                     <label class="label">Student Name</label>
                     <div class="control">
