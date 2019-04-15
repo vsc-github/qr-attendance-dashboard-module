@@ -70,7 +70,7 @@ class Table extends Component {
             {
                 this.state.list === null ? null : (<div className="container" style={{ maxWidth: '70rem', margin: '4rem auto 10rem auto' }}>
                 
-                <div className="field">
+                <div className="field custom">
                     <label className="label">Select Attendance Type:</label>
                     <div className="control">
                         <div className="select">
