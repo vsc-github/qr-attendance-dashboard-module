@@ -23,7 +23,7 @@ class Navbar extends Component {
             </Link>
       
             <Link to="attendance" className="navbar-item">
-              Attendance
+              Attendance List
             </Link>
       
             <Link to="addStudent" className="navbar-item">
@@ -36,14 +36,14 @@ class Navbar extends Component {
               </a>
       
               <div className="navbar-dropdown">
-                <a className="navbar-item">
-                  About
+                <a href="https://vsc-github.github.io/QR-attendance-admin-module/" target="_blank" className="navbar-item">
+                  QR Display Module
                 </a>
-                <a className="navbar-item">
-                  Jobs
+                <a href="https://vsc-github.github.io/QR-attendance-student-module/" target="_blank" className="navbar-item">
+                  QR Scanner Student Module
                 </a>
-                <a className="navbar-item">
-                  Contact
+                <a href="https://nifty-bhaskara-20bb9e.netlify.com" target="_blank" className="navbar-item">
+                  QR Attendance Admin Module
                 </a>
                 <hr className="navbar-divider" />
                 <a className="navbar-item">
@@ -53,7 +53,7 @@ class Navbar extends Component {
             </div>
           </div>
       
-          <div className="navbar-end">
+          {/* <div className="navbar-end">
             <div className="navbar-item">
               <div className="buttons">
                 <a className="button is-primary">
@@ -64,7 +64,7 @@ class Navbar extends Component {
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </nav>)
     }
