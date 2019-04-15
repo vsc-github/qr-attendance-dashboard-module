@@ -42,7 +42,7 @@ class App extends Component {
             </div>
 
             <div className="students">
-              <span className="by">Made by: </span><span>Urvashi Murari (0827cs151236), Tanisha Chouhan(0827cs151230) & Tanishq Gupta(0827cs151231)</span>
+              <span className="by">Made by: </span><span>Urvashi Murari (0827cs151237), Tanisha Chouhan(0827cs151231) & Tanishq Gupta(0827cs151232)</span>
             </div>
         </div>
       </div>
